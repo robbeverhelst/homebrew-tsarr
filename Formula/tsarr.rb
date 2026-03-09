@@ -1,7 +1,7 @@
 class Tsarr < Formula
   desc "Type-safe TypeScript SDK and CLI for Servarr APIs"
   homepage "https://github.com/robbeverhelst/tsarr"
-  version "2.3.0"
+  version "2.3.1"
   license "MIT"
 
   on_macos do
