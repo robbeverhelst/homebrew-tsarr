@@ -1,26 +1,26 @@
 class Tsarr < Formula
   desc "Type-safe TypeScript SDK and CLI for Servarr APIs"
   homepage "https://github.com/robbeverhelst/tsarr"
-  version "2.15.0"
+  version "2.15.1"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/robbeverhelst/tsarr/releases/download/v#{version}/tsarr-darwin-arm64"
-      sha256 "bf6c8d2c081ad739efeae36d92a82cb4c3f488f877237f6f22d513de61f0b174"
+      sha256 "876203369e403ca29e28319194a2ad6a48cfee9b6891d9f2240ac2559bd12079"
     else
       url "https://github.com/robbeverhelst/tsarr/releases/download/v#{version}/tsarr-darwin-x64"
-      sha256 "d7e67a76aaa7ed364cbb9841b0562534c1a7e54c21fc6fca6e1d9fc3f9311d79"
+      sha256 "0251c434334d370cbaf806601502d7c3412016cd983880b5ba03b9ea13690133"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/robbeverhelst/tsarr/releases/download/v#{version}/tsarr-linux-arm64"
-      sha256 "ec0a0c4cedcccea38a3dc0d77270d4c1c2074a9a2bbca1ee7d7361f80a5d0ce9"
+      sha256 "0374ecd0b820260d5081137100852c2474311c9bae01770ba717d76753f9da25"
     else
       url "https://github.com/robbeverhelst/tsarr/releases/download/v#{version}/tsarr-linux-x64"
-      sha256 "a19d55c39127328413b04d29f35733da17f1436a3ee366a580cd2ebfc984368a"
+      sha256 "3a67042259724b654f66521953d757c332ddeb179130096d234ab1b7f33ea843"
     end
   end
 
