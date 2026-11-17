@@ -4,6 +4,8 @@
     "config:recommended",
     ":semanticCommitTypeAll(chore)"
   ],
+  "osvVulnerabilityAlerts": true,
+  "lockFileMaintenance": { "enabled": true },
   "timezone": "Europe/Brussels",
   "assignees": [
     "robbeverhelst"
